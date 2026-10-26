@@ -1,0 +1,1079 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.sectionOne {
+    height: 794px;
+    background-color: #000000;
+
+}
+
+.Sc1Main {
+    width: 1140px;
+    height: 608px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc1Img {
+    width: 491.5px;
+    height: 633px;
+    background-color: aqua;
+    position: relative;
+    bottom: 50px;
+}
+
+.sc1Img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc1Text {
+    width: 491.5px;
+    height: 543px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.sc1Text h1 {
+    font-size: 88px;
+    font-family: Oswald, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.sc1Text b {
+    font-weight: 700;
+}
+
+.sc1Text p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    width: 395.5px;
+    color: #808080;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 1px;
+
+}
+
+.sc1Text button {
+    width: 194px;
+    height: 62px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f09319;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    align-self: center;
+    padding: 20px 46px 20px 44px;
+    border: none;
+}
+
+.topdiv {
+    width: 100%;
+    height: 332px;
+    background-color: #f09319;
+
+}
+
+.sc1BgMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+}
+
+@media(max-width:768px) {
+    .Sc1Main {
+        width: 350px;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .sc1Img {
+        width: fit-content;
+        height: 354px;
+        background-color: aqua;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .sc1Text {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .sc1Text h1 {
+        font-size: 56px;
+        font-family: Oswald, sans-serif;
+        font-weight: 200;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.1;
+    }
+
+    .sc1Text p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        width: 280px;
+        color: #808080;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 1px;
+    }
+
+    .sectionOne {
+        height: fit-content;
+        background-color: #000000;
+    }
+}
+
+.sectionTwo {
+    height: 659px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.sc2Left {
+    width: 570px;
+    height: 539px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.sc2Left .sc2CircleDiv {
+    width: 102px;
+    height: 102px;
+    background-color: #f09319;
+    border-radius: 50%;
+}
+
+.sc2Left h2 {
+    font-size: 98px;
+    font-family: Oswald, sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+    text-align: right;
+    width: 370px;
+    color: white;
+}
+
+.sc2Right {
+    width: 570px;
+    height: 539px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sc2Right p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 2;
+    width: 410px;
+    text-align: left;
+    color: white;
+}
+
+.sc2Right button {
+    width: 194px;
+    height: 62px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f09319;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 46px 20px 44px;
+    border: none;
+}
+
+@media (max-width:768px) {
+    .sectionTwo {
+        height: fit-content;
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 20px;
+    }
+
+    .sc2Left {
+        width: fit-content;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .sc2Right {
+        width: fit-content;
+        height: 400px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sc2Left h2 {
+        font-size: 58px;
+        font-family: Oswald, sans-serif;
+        line-height: 1.1;
+        font-weight: 300;
+        text-align: left;
+        width: fit-content;
+        color: white;
+        /* padding: 20px; */
+    }
+
+
+
+    .sc2Right p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 2;
+        width: fit-content;
+        text-align: left;
+        color: white;
+    }
+
+
+}
+
+.sectionThree {
+    height: 969px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.sc3media {
+    flex-wrap: wrap;
+}
+
+
+
+.sc3media .sc3Circle {
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    background-color: #f09319;
+    position: absolute;
+    z-index: 0;
+    top: 80px;
+    left: 500px;
+
+}
+
+.sc3BigImg {
+    width: 538px;
+    height: 493px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 200px;
+    top: 230px;
+}
+
+.sc3BigImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc3SmallImg {
+    width: 397px;
+    height: 369px;
+    position: absolute;
+    z-index: 2;
+    bottom: 40px;
+    right: 620px;
+}
+
+.sc3SmallImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc3Text {
+    width: 527px;
+    height: 541px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    gap: 30px;
+    position: absolute;
+    z-index: 3;
+    right: 180px;
+    top: 270px;
+}
+
+.sc3Text h2 {
+    font-size: 72px;
+    font-family: Oswald, sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+    width: 467px;
+}
+
+.sc3Text p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sc3Text button {
+    width: 194px;
+    height: 62px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f09319;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 46px 20px 44px;
+    border: none;
+}
+
+@media(max-width:768px) {
+    .sectionThree {
+        height: fit-content;
+        background-color: #e5e5e5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        flex-wrap: wrap;
+        /* padding: 20px; */
+    }
+
+    .sc3BigImg {
+        width: 362px;
+        height: 369px;
+        position: static;
+        z-index: 1;
+        top: 0px;
+        left: 200px;
+        top: 230px;
+        pad: 30px;
+        padding-top: 20px;
+    }
+
+    .sc3media .sc3Circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #f09319;
+        position: static;
+        z-index: 0;
+        top: 80px;
+        left: 500px;
+        padding-top: 20px;
+    }
+
+    .sc3SmallImg {
+        width: fit-content;
+        height: 369px;
+        position: static;
+        z-index: 2;
+        bottom: 40px;
+        right: 620px;
+        padding-top: 20px;
+    }
+
+    .sc3Text {
+        width: 362px;
+        height: 473px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        gap: 30px;
+        position: static;
+        z-index: 3;
+        right: 180px;
+        top: 270px;
+    }
+
+    .sc3Text h2 {
+        font-size: 59px;
+        font-family: Oswald, sans-serif;
+        line-height: 1.1;
+        font-weight: 300;
+        width: fit-content;
+    }
+
+    .sc3SmallImg {
+        width: 362px;
+        height: 369px;
+        position: static;
+        z-index: 2;
+        bottom: 40px;
+        right: 620px;
+    }
+}
+
+.sectioFour {
+    height: 675px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: end; */
+    flex-wrap: wrap;
+
+}
+
+.sc4Left {
+    width: 482.24px;
+    height: 675px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 170px;
+}
+
+.sc4Right {
+    width: 723.35px;
+    height: 675px;
+}
+
+.sc4Right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lineDiv {
+    width: 114px;
+    height: 7px;
+    background-color: #f09319;
+}
+
+.sc4Left h2 {
+    color: white;
+    font-size: 72px;
+    font-family: Oswald, sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+.sc4Left p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.sc4Left button {
+    width: 194px;
+    height: 62px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f09319;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 46px 20px 44px;
+    border: none;
+}
+
+@media(max-width:768px) {
+    .sc4Left {
+        width: fit-content;
+        height: 675px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        padding-left: 20px;
+
+    }
+
+    .sc4Right {
+        width: fit-content;
+        height: 365px;
+        padding: 10px;
+    }
+
+    .sc4Left h2 {
+        color: white;
+        font-size: 55px;
+        font-family: Oswald, sans-serif;
+        line-height: 1.1;
+        font-weight: 300;
+
+    }
+
+    .sc4Left p {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+    }
+
+    .sectioFour {
+        height: fit-content;
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+
+
+}
+
+.sectioFive {
+    height: 1672px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sc5LineDiv {
+    width: 849px;
+    height: 0.5px;
+    background-color: #454545;
+
+}
+
+.sectioFive h2 {
+    color: black;
+    font-size: 72px;
+    font-family: Oswald, sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+
+.sectioFive p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    width: 410px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.sc5Maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sc5mainChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sc5mainChild .boxOne {
+    width: 368.66px;
+    height: 364px;
+}
+
+.sc5mainChild .boxOne img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sectioFive button {
+    width: 194px;
+    height: 62px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f09319;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 46px 20px 44px;
+    border: none;
+}
+
+
+@media(max-width:768px) {
+    .sectioFive {
+        height: fit-content;
+        background-color: #e5e5e5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 10px;
+    }
+
+    .sc5LineDiv {
+        width: fit-content;
+        height: 0.5px;
+        background-color: #454545;
+    }
+
+    .sectioFive p {
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        width: fit-content;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .sc5mainChild .boxOne {
+        width: 368.66px;
+        height: 364px;
+        padding: 10px;
+    }
+}
+
+.sectionSix {
+    height: 897px;
+    background-image: url("img/scsixx.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sc6Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    right: 100px;
+    flex-wrap: wrap;
+}
+
+.sc6BoxMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sc6Box {
+    width: 280.5px;
+    height: 283.5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sc6Box i {
+    font-size: 55px;
+    color: #f09319;
+}
+
+.sc6Box h5 {
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.sc6Box p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 220.5px;
+    text-align: center;
+    line-height: 2;
+}
+
+@media(max-width:768px) {
+    .sectionSix {
+        height: fit-content;
+        background-image: url(img/scsixx.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .sc6Main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: static;
+        right: 100px;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+
+    .sc6Box {
+        width: 348px;
+        height: 344px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+
+.sectionSeven {
+    height: 659px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.sc7Left {
+    width: 570px;
+    height: 539px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.sc7Left .sc7CircleDiv {
+    width: 102px;
+    height: 102px;
+    background-color: #f09319;
+    border-radius: 50%;
+}
+
+.sc7Left h2 {
+    font-size: 98px;
+    font-family: Oswald, sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+    text-align: left;
+    width: 370px;
+    color: white;
+}
+
+.sc7Right {
+    width: 570px;
+    height: 539px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.sc7Right p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 2;
+    width: 410px;
+    text-align: right;
+    color: white;
+}
+
+.sc7Right button {
+    width: 194px;
+    height: 62px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f09319;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 46px 20px 44px;
+    border: none;
+}
+
+@media (max-width:768px) {
+    .sectionSeven {
+        height: fit-content;
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 20px;
+    }
+
+    .sc7Left {
+        width: fit-content;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .sc7Right {
+        width: fit-content;
+        height: 400px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sc7Left h2 {
+        font-size: 58px;
+        font-family: Oswald, sans-serif;
+        line-height: 1.1;
+        font-weight: 300;
+        text-align: left;
+        width: fit-content;
+        color: white;
+        /* padding: 20px; */
+    }
+
+
+
+    .sc7Right p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 2;
+        width: fit-content;
+        text-align: left;
+        color: white;
+    }
+
+    .sc7Left .sc7CircleDiv {
+        width: 47px;
+        height: 102px;
+        background-color: #f09319;
+        border-radius: 50%;
+    }
+
+    .sc7Left h2 {
+        font-size: 58px;
+        font-family: Oswald, sans-serif;
+        line-height: 1.1;
+        font-weight: 300;
+        text-align: center;
+        width: fit-content;
+        color: white;
+        /* padding: 20px; */
+    }
+
+    .sc7Right {
+        width: fit-content;
+        height: 400px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+.sectionEight {
+    height: 966px;
+    background-color: #e5e5e5;
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.sc8BgTop {
+    height: 299px;
+    background-color: #f09319;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.sc8BigImg {
+    width: 750px;
+    height: 686px;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: 150px;
+}
+
+.sc8BigImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc8Txt {
+    width: 570px;
+    height: 494px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 40px;
+    gap: 40px;
+    position: absolute;
+    right: 150px;
+    top: 450px;
+    z-index: 2;
+}
+
+.sc8Txt h2 {
+    font-size: 72px;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+}
+
+.sc8Txt .text {
+    width: 100%;
+    height: 53.6px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+}
+
+.sc8Txt .email {
+    width: 100%;
+    height: 53.6px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+
+}
+
+
+.sc8Txt .button {
+    width: 100%;
+    height: 73.6px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+.sc8Txt p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+@media(max-width:786px) {
+    .sectionEight {
+        height: fit-content;
+        background-color: #e5e5e5;
+        position: relative;
+        z-index: 1;
+    }
+
+    .container {
+        display: flex;
+        position: static;
+        flex-wrap: wrap;
+    }
+
+    .sc8BigImg {
+        width: fit-content;
+        height: fit-content;
+        position: static;
+        z-index: 1;
+        top: 70px;
+        left: 150px;
+        padding: 10px;
+    }
+
+    .sc8Txt {
+        width: fit-content;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 20px;
+        gap: 12px;
+        position: static;
+        right: 150px;
+        top: 450px;
+        z-index: 2;
+    }
+
+    .sc8BgTop {
+        display: none;
+        height: 299px;
+        background-color: #f09319;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+        z-index: -1;
+    }
+}
